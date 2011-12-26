@@ -25,9 +25,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-//    [self setView:[[[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]] autorelease]];
-    
+        
     NSString *str = @"I am MD5 converter.";
     NSLog(@"%@", [str MD5]);
     
